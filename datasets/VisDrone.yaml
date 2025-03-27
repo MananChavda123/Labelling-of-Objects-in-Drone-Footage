@@ -1,0 +1,8 @@
+path: "C:/Users/Manan/Desktop/Object_Deection_DL/drone_project/datasets"  # Path to the dataset root
+train: VisDrone2019-DET-train/VisDrone2019-DET-train/images  # Path to training images
+val: VisDrone2019-DET-val/VisDrone2019-DET-val/images  # Path to validation images
+
+nc: 10  # Number of object classes
+names: ["pedestrian", "people", "bicycle", "car", "van", "truck", "tricycle", "awning-tricycle", "bus", "motor"]  # VisDrone classes
+
+
