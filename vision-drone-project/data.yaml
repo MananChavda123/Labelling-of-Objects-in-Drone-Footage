@@ -1,0 +1,5 @@
+train: ../dataset/images/train
+val: ../dataset/images/val
+
+nc: 12  # Number of classes (0-11) based on your dataset
+names: ['ignored regions', 'pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor', 'others'] 

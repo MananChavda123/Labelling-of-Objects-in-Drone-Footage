@@ -4,7 +4,7 @@ import cv2
 import tqdm
 
 # Paths (Change these)
-visdrone_path = "C:/Users/Manan/Desktop/Object_Deection_DL/drone_project/datasets/VisDrone2019-DET-val/VisDrone2019-DET-val"
+visdrone_path = "C:\Users\havis\OneDrive\Documents\GitHub\Labelling-of-Objects-in-Drone-Footage\datasets/VisDrone2019-DET-val/VisDrone2019-DET-val"
 image_folder = os.path.join(visdrone_path, "images")
 annotation_folder = os.path.join(visdrone_path, "annotations")
 output_label_folder = os.path.join(visdrone_path, "labels")

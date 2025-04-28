@@ -1,0 +1,5 @@
+train: ../dataset/images/train
+val: ../dataset/images/val
+
+nc: 3  # Number of classes (replace with your number of classes)
+names: ['bicycle', 'tricycle', 'awning-tricycle']  # Replace with your class names
